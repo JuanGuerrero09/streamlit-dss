@@ -5,9 +5,20 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "matplotlib>=3.10.8",
-    "numpy>=2.4.4",
-    "pandas>=3.0.2",
-    "pymcdm>=1.4.0",
-    "streamlit>=1.56.0",
+  "matplotlib>=3.10.8",
+  "numpy>=2.4.4",
+  "pandas>=3.0.2",
+  "pymcdm>=1.4.0",
+  "streamlit>=1.56.0",
 ]
+
+[tool.poetry]
+name = "streamlit-dss"
+version = "0.1.0"
+description = "Decision Support System"
+authors = ["Your Name <you@example.com>"]
+package-mode = false                      # <--- Add this line
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "1.56.0"
